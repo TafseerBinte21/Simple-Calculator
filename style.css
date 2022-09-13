@@ -1,0 +1,83 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to left, #00AAFF, #e4e5a2);
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+
+.calculator {
+    width: 350px;
+    height: 530px;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.3);
+    background: rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+form input {
+    width: 350px;
+    height: 130px;
+    border: none;
+    
+    font-size: 2rem;
+    padding: 2rem;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(to left, #e4e5a2, #00AAFF);
+    text-align: right;
+    pointer-events: none;
+}
+
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px ;
+}
+
+
+button {
+    flex: 0 0 22%;
+    margin: 5px 0;
+    border: 1px solid rgb(0, 0, 0);
+    width: 68px;
+    height: 63px;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn-yellow{
+    background: #296ae1;
+    color: #fff;
+}
+
+
+.btn-yellow{
+    background: #09bde6;
+    color: #fff;
+}
+
+.btn-grey{
+    background: rgb(141, 244, 253);
+}
+
+.btn-equal{
+    background: rgb(169, 228, 187);
+}
+
+.btn-clear{
+    background: rgb(2, 198, 212);
+}
+
+.btn-del{
+    background: rgb(2, 198, 212);
+}
